@@ -1,0 +1,221 @@
+/* h1{ 
+    color: blueviolet;
+}
+p{
+    color: rgb(0, 255, 255);
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: rgb(231, 25, 220);
+    width: 70%;
+    height: 400px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 150px 0 150 0;
+    padding: 50px;
+}
+span{
+    color: green;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    font-size: 40px;
+}
+p{
+color: blue;
+}
+.higlight{
+    color: red;
+}
+#special{
+    color: green;
+}
+ul > li{
+    color: blue;
+}
+li+li{
+    border: 1px solid black;
+}
+.note~p{
+color: brown;
+} 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  min-height: auto;
+}
+
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 12px;
+}
+
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 186px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background: #847462 no-repeat center url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/furniture-1.jpg');
+  background-size: cover;
+  color: #ffffff;
+}
+
+.site-header p {
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.features {
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;  
+  text-align: center;
+}
+
+.feature-furniture {
+  padding-top: 65px;
+  background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/sofa.svg');
+}
+
+.feature-lighting {
+  padding-top: 65px;
+  background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/lamp.svg');
+}
+
+.feature-accessories {
+  padding-top: 65px;
+  background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/accessories.svg');
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.advantages-list {
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 20px solid #e2e2e2;
+  color: #999999;
+}
+
+Добавьте правило для класса standard под комментарием
+.standard{
+  border-color: #847462;
+  color: #6a6a6a;
+}
+Добавьте правило для класса vip под комментарием
+.vip{
+  border-color: #ffb864;
+  color: #000000;
+}
+.site-footer {
+  min-width: 550px;
+  background-color: #847462;
+  color: #ffffff;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+} */
+/* input[type="number"]{
+  background-color: yellow;
+  color: #db1017;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+input[checked]{
+  outline:2px solid red;
+}
+input[disabled]{
+  background-color: green; 
+  border-radius: 3px;
+} */
+a:hover{
+color:red;
+text-transform: uppercase;
+}
+/* input:focus{
+  background-color: blue;
+} */
+li:first-child{
+  color: orange;
+  text-decoration: underline;
+}
+li:last-child{
+  color: blueviolet;
+  text-decoration: line-through;
+}
+
+p::before{
+  content: "\1F60A";
+}
+p::after{
+  content: "! \1F60A";
+  color: blue;
+}
+input::placeholder{
+  color: blueviolet;
+  font-style: italic;
+}
+input{
+  color: brown;
+}
