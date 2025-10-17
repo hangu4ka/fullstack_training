@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'TT Lakes Thin';
+    src: url('fonts/TTLakes-Thin.woff');
+    src: url('fonts/TTLakes-Thin.woff') format('embedded-opentype'),
+    url('fonts/TTLakes-Thin.woff') format('woff'),
+    url('fonts/TTLakes-Thin.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+.service-page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: "TT Lake", sans-serif;
+    background:#FFFFFF;
+}
+.service-page__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #80949F;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+    
+.service-page__menu-btn{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #FF3E79;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.service-page__logo{
+
+}
+     /* завернуть 2 эти кнопки ниже в div */
+.service-page__service-btn{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #FF3E79;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.service-page__checkstatus-btn{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #FF3E79;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.service-page__menu{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.menu__item{
+    width: 246px;
+    height: 40px;
+    top: 176px;
+    left: 16px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 16px;
+    border-color: #B8FFEC;
+    border: 2px;
+    color: #7E7E82;
+    font-size: 16px;
+    font-weight: 500;
+    Line height: 24px;
+    Letter spacing: -0.2px;
+}
+
+.services__readmore{
+    font-weight: bold;
+    font-size: 16px;
+    color: #1B1C21;
+    Line height: 24px;
+}
