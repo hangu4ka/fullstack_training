@@ -1,0 +1,20 @@
+.static-positioning{
+    left: 20%;
+    position: static;
+    width: 200px;
+    height: 200px;
+    background: #667eea;
+    color: white;
+    /* margin-bottom: 50px; */
+}
+.relative-positioning{
+    left: 20%;  /* cмещает элемент на 20% от левой стороны */
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #c739b4;
+    color: white;
+    margin-bottom: 50px;
+    top: 20px;
+
+}
