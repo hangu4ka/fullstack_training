@@ -1,0 +1,27 @@
+@use "variables" as *;
+@use "sass:color";
+
+@mixin button-styles{
+    background-color: $primary-color;
+    color: white;
+    padding: $btn-padding;
+    border-radius: $border-radius;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+    background-color: $primary-hover;
+}
+}
+
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin swiper-slide-styles{
+    @include flex-center;
+    background-color: $swiper-bg;
+    color: white;
+}
